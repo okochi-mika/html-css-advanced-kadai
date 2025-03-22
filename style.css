@@ -10,7 +10,8 @@ p {
 body {
   max-width: 1080px;
   margin: 0 auto 0 auto;
-  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial,
+    sans-serif;
 }
 
 /* ヘッダー */
@@ -29,7 +30,6 @@ header {
   padding-left: 0;
 }
 
-
 #nav-pc li {
   list-style: none;
 }
@@ -43,6 +43,12 @@ header {
 
 #nav-pc a:hover {
   text-decoration: underline;
+}
+
+/* スマホ用ナビを非表示 */
+#nav-sp,
+#menu-sp {
+  display: none;
 }
 
 /* メインビジュアル */
@@ -588,12 +594,6 @@ footer {
     text-decoration: underline;
   }
 
-  /* スマホ用ナビを非表示 */
-  #nav-sp,
-  #menu-sp {
-    display: none;
-  }
-
   #nav-sp .menu {
     text-decoration: none;
     margin: 0 20px 0 20px;
@@ -641,7 +641,4 @@ footer {
     top: auto;
     bottom: 0;
   }
-
-
-
 }
