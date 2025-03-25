@@ -45,12 +45,6 @@ header {
   text-decoration: underline;
 }
 
-/* スマホ用ナビを非表示 */
-#nav-sp,
-#menu-sp {
-  display: none;
-}
-
 /* メインビジュアル */
 #main-visual {
   position: relative;
@@ -528,6 +522,12 @@ footer {
 #copyright {
   color: #ffffff;
   margin: 0;
+}
+
+/* スマホ用ナビを非表示 */
+#nav-sp,
+#menu-sp {
+  display: none;
 }
 
 /*====================
